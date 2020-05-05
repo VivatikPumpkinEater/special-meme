@@ -1,4 +1,4 @@
-package project.money;
+package project.moneyTransfer;
 
 public interface IMoney {
     /**

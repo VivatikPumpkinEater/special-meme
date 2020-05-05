@@ -1,4 +1,4 @@
-package project.money;
+package project.moneyTransfer;
 
 public class Pay implements IMoney {
     /**
