@@ -19,5 +19,6 @@ public interface UserActions {
     void deleteWallet();        //удаление кошелька
     void getStory();            //получение истории
     void getCurrentDeals();     //получение текущих сделок
+    void deleteAccount();       //удаление аккаунта, возможно только по завершении активных сделок
 
 }
