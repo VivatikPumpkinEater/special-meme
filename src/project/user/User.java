@@ -1,8 +1,9 @@
 package project.user;
 
-public class User {
-    private String name;
-    private String password;
-    private int id;
+public interface User {
+    void register();
+    void login();
+    void addCard();
+    void addWallet();
 
 }
