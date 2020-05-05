@@ -1,9 +1,19 @@
 package project.marketplace;
 
 public interface IMarketplace {
-    void getTopCreditorList();//список пользователей дают
-    void getTopDebitorList();//список пользователей берут
-    void filterTicket(); // фильтр заявок
+    /**
+     * Методы интерфейса должны отвечать за получение данных
+     * из базы по предложениям/спросу на займы
+     * Выводить топ кредиторов/заёмщиков
+     * Выводить текущие предложения/спрос(краткая информация)
+     * Иметь фильтр заявок
+     * Переход к полному описанию заявки
+     * */
+    void getTopCreditorList();      //список кредитодателей
+    void getTopDebitorList();       //список кредитополучателей
+    void filterTicket();            // фильтр заявок
+    void goToTicket();              //переход к нужной заявке
+    void getTicketList();           //вывод списка заявок вперемешку
 
 
 
