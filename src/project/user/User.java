@@ -10,8 +10,8 @@ public interface User {
      * */
     void register();
     void login();
-    void addCard();//добавление карты
-    void addWallet();//добавление кошелька
+    void addCard();//добавление карты обязательно при регистрации
+    void addWallet();//добавление кошелька опционально
 
 
 }
