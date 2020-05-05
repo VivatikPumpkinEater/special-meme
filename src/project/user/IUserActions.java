@@ -1,6 +1,6 @@
 package project.user;
 
-public interface UserActions {
+public interface IUserActions {
     /**
      * Интерфейс взаимодействия пользователя с аккаунтом
      * Предусмотрены смена имени, пароля.
